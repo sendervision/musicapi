@@ -147,7 +147,7 @@ Home.get('/', (c) => {
             <a
               target="_blank"
               class="p-4 sm:p-8 hover:bg-opacity-5 hover:bg-white rounded-lg duration-100 sm:col-span-4"
-              href="https://github.com/sumitkolhe/jiosaavn-api/issues"
+              href="https://github.com/sendervision/musicapi/issues"
             >
               <div class="flex flex-col">
                 <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-violet-500 text-violet-500">
@@ -177,8 +177,6 @@ Home.get('/', (c) => {
                   >
                     GitHub
                   </a>
-      
-                  , or{' '}
                   <a
                     href="https://t.me/benenoc"
                     target="_blank"
