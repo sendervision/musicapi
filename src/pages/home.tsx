@@ -22,14 +22,14 @@ export const Meteors = ({ number }: { number: number }) => {
 }
 
 Home.get('/', (c) => {
-  const title = 'JioSaavn API'
+  const title = 'BenMusic API'
   const description =
-    'JioSaavn API is an unofficial wrapper written in TypeScript for jiosaavn.com providing programmatic access to a vast library of songs, albums, artists, playlists, and more.'
+    'BenMusic est API non official écrit en TypeScript for jiosaavn.com fournissant un accès programmatique à une vaste bibliothèque de chansons, d'albums, d'artistes, de listes de lecture et bien plus encore.'
 
   return c.html(
     <html>
       <head>
-        <title>JioSaavn API</title>
+        <title>BenMusic API</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="utf-8" />
         <meta name="description" content={description} />
@@ -105,7 +105,7 @@ Home.get('/', (c) => {
               />
             </svg>
             <p class="text-2xl md:text-4xl text-transparent font-bold leading-none bg-clip-text bg-gradient-to-r from-[#ff7d78] to-purple-600">
-              JioSaavn API
+              BenMusic API
               <span class="uppercase text-sm ml-3 text-gray-500 font-normal sm:hidden">Unofficial</span>
             </p>
             <p class="hidden sm:block animate-[borderAnimation_3s_linear_infinite] rounded bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 bg-[length:400%_400%] p-1">
@@ -121,11 +121,11 @@ Home.get('/', (c) => {
             >
               <div class="flex flex-col">
                 <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-red-500 text-red-500">
-                  Get Started
+                  Commencer
                 </span>
                 <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Explore the Docs</span>
                 <div class="text-neutral-500 mt-2">
-                  Check out the documentation to learn how to use the JioSaavn API.
+                  Regarder la doc pour apprendre plus sur l'usage de BenMusic API.
                 </div>
               </div>
             </a>
@@ -151,7 +151,7 @@ Home.get('/', (c) => {
             >
               <div class="flex flex-col">
                 <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-violet-500 text-violet-500">
-                  Contribute
+                  Contributions
                 </span>
                 <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Get Involved</span>
                 <div class="text-neutral-500 mt-2">
@@ -168,27 +168,19 @@ Home.get('/', (c) => {
                 </span>
                 <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Sumit Kolhe</span>
                 <div class="text-neutral-500 mt-2">
-                  Have a question or need help? Reach out on{' '}
+                  Avez-vous des questions ou besoin d'aide?
                   <a
-                    href="https://github.com/sumitkolhe"
+                    href="https://github.com/sendervision"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:underline text-indigo-500"
                   >
                     GitHub
                   </a>
-                  ,{' '}
-                  <a
-                    href="https://twitter.com/thesumitkolhe"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline text-sky-500"
-                  >
-                    Twitter
-                  </a>
+      
                   , or{' '}
                   <a
-                    href="https://t.me/sumitkolhe"
+                    href="https://t.me/benenoc"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:underline text-pink-500"
